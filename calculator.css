@@ -1,0 +1,80 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.main{
+    height: 100vh;
+    /* background-color: white; */
+    box-sizing: border-box;
+    /* border:  2px solid black; */
+    background-image: url("cal.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container{
+    height: 620px;
+    width: 406px;
+    /* background-color: aqua; */
+    border: 5px solid black;
+    position: relative;
+    top: 8em;
+    left: 40em;
+    border-radius: 20px;
+}
+.display{
+    height: 100px;
+    width: 97.5%;
+    border: 5px solid black;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    font-weight:700 ;
+    overflow: auto ;
+    border-radius: 20px;
+    /* background: transparent; */
+    position: relative;
+    left: 0px;
+    
+ 
+}
+
+.panel{
+    display: flex;
+    flex-wrap: wrap;
+    height:510px ;
+    width: 100%;
+    /* background-color: aqua; */
+    border-radius: 20px;
+    position: relative;
+    top: 2px;
+    left:5px
+
+
+}
+.size{
+    height: 80px;
+    width: 132px;
+    border: 1px solid black;
+    border-radius: 10px;
+    font-family: cursive;
+    font-size: 1.8rem;
+    font-weight: 800;
+    background-color: #848db3;
+    color: black;
+}
+.cancle{
+    font-size: 1.2rem;
+    font-weight: 800;
+    background-color: red;
+}
+.operator{
+    font-size: 1.2rem;
+    font-weight: 800;
+    
+}
+.size:hover{
+    font-size: 1.8rem;
+    background-color: plum;
+}
